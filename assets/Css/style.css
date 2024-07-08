@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* First Part */
+.first-class{
+    background-image:url(/assets/images/79933c957fc3f6515847a8741418f7dc.jpeg);
+    background-position: 60.2% 50%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    display: flex;
+    justify-content: end;
+    color: #f2f2f2;
+    position: relative;
+
+}
+.section-inner{
+    width: 80%;
+    z-index:1;
+
+}
+.first-class .section-inner{
+    margin-bottom: 100px;
+}
+.first-class h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4.5rem;
+    font-weight: lighter;
+    align-items: center;
+    padding-right: 300px;
+    
+    text-align: center;
+}
+
+
+.first-class p{
+    text-align: center;
+    font-weight: 400px;
+    font-size: 1.3rem;
+    padding-right: 300px;
+    padding-top: 30px;
+    font-family: "Roboto", sans-serif;
+    width: 90%;
+    margin: 20px auto 0 auto;
+
+}
+
+.overlay1{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    padding-bottom: 100px;
+    z-index:0;
+}
+
+/* Second Part */
+
+.second-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding:50px 0;
+    font-family: "Ubuntu", sans-serif;
+    padding-left:100px;
+
+
+
+}
+.second-class h2{
+    font-family: "Ubuntu", sans-serif;
+    
+    font-weight: 50px;    
+    padding-bottom: 25px;
+}
+.second-class p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 30px;
+    
+}
+
+.second-class a{
+    padding: 10px 150px;
+    border:2px solid rgb(0, 0, 0);
+    display:flex;
+    margin-top:20px;
+    width:max-content ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    block-size:max-content ;
+    font-size: 15px;
+    transition:all 0.4s ease-in-out
+    
+}
+.second-class a:hover{
+    color:white;
+    background-color: black;
+}
+
+.second-class .section-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-section img{
+    width: 300px;
+    height: 200px;
+
+    
+}
+.third-section{
+    background-color: #35506d;
+    
+    width: 125%;
+}
+.third-section h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.third-section .section-inner{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.third-element{
+    width: 30%;
+}
+.element1,.element3{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.element1 li,.element3 li{
+    color: #fff;
+    display: flex;
+    margin-bottom: 60px;
+}
+.element1 li img,.element3 li img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.element1 li p,.element3 li p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.element1 li h4,.element3 li h4{
+    font-weight: 400;
+}
+
+
+
+
+
+.fourth-class{
+    background-image: url('/assets/images/backetball.jpeg');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 600px; 
+    padding: 20px; 
+    background-repeat: no-repeat;
+}   
+.fourth-class h2{
+    color: white;
+    text-align:left;
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    font-size: 2.4rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.fourth-class p{
+    color:white;
+    padding-left:150px ;
+    font-family: 'Open Sans', sans-serif;
+}
+.fourth-class a{
+    padding: 10px 20px;
+    border: 2px solid #ffffff;    
+    margin-top: 20px;
+    margin-left: 150px;
+    width: max-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #ffffff;
+    transition: all .5s ease-in-out;
+    display: block;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+
+.fourth-class a:hover{
+    color:white;
+    background-color: rgb(0, 0, 0);
+}
+
+.fifth-class{
+    background-image: url(/assets/images/watch\ green.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 600px; 
+    padding: 20px; 
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.fifth-class h2{
+    color: white;
+    text-align: end;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 150px;
+    padding-right: 180px;
+    font-size:2.3rem;
+    
+}
+.fifth-class p{
+    color: white;
+    text-align: end;
+    font-family: 'Open Sans', sans-serif;
+    padding-right:180px ;
+    padding-top: 30px;
+}
+
+.fifth-class a{
+    padding: 10px 20px; 
+    border: 2px solid #ffffff; 
+    margin-top: 20px; 
+    margin-left: auto;
+    width: max-content; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 13px; 
+    color: #ffffff; 
+    transition: all .5s ease-in-out; 
+    display: block; 
+    box-sizing: border-box;     
+    margin-right: 180px;
+
+}
+.fifth-class a:hover{
+    color:white;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+.seventh-class{
+    background-image: url(/assets/images/women.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560PX;
+}
+
+.seventh-class h1{
+    padding-left: 200px;
+    padding-top:200px;
+    color: white;
+    font-family: Roboto, sans-serif;
+
+}
+.seventh-class p{
+    padding-left:200px;
+    padding-top:30px;
+    color:white;
+    font-family: Roboto, sans-serif;
+}
+.seventh-class a{
+    padding: 10px 20px;
+    border: 2px solid #ffffff;    
+    margin-top: 20px;
+    margin-left: 200px;
+    width: max-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #ffffff;
+    transition: all .5s ease-in-out;
+    display: block;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+.seventh-class a:hover{
+    color:white;
+    background-color: rgb(0, 0, 0);
+}
+.sixth-class{
+    position: relative;
+}
+
+.sixth-class h1{
+    text-align: center;
+    font-size: 40px;
+}
+.sixth-class img{
+    display: flex;
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 200px;
+    justify-content: space-between;
+}
+
+
+
+
+
+.eight-class{
+    background-image: url(/assets/images/runner.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 600px; 
+    padding: 20px; 
+    background-repeat: no-repeat;
+    position: relative;
+    box-sizing: border-box
+}
+
+
+
+.eight-class h2{
+    color: white;
+    text-align: end;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 150px;
+    padding-right: 180px;
+    font-size:2.3rem;
+    
+}
+.eight-class p{
+    color: white;
+    text-align: end;
+    font-family: 'Open Sans', sans-serif;
+    padding-right:180px ;
+    padding-top: 30px;
+}
+
+.eight-class a{
+    padding: 10px 20px; 
+    border: 2px solid #ffffff; 
+    margin-top: 20px; 
+    margin-left: auto;
+    width: max-content; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 13px; 
+    color: #ffffff; 
+    transition: all .5s ease-in-out; 
+    display: block; 
+    box-sizing: border-box;     
+    margin-right: 180px;
+
+}
+.eight-class a:hover{
+    color:white;
+    background-color: rgb(0, 0, 0);
+}
+
+.about{
+    background-color: #333333;
+    width: 100%;
+    height: 50px;
+}
+.about h1{
+    color:white;
+    text-align: center;
+    font-size:15px;
+    padding-top: 10px;
+}
+.about a{
+    color:white;
+    font-size:15px;
+
+}
